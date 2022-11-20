@@ -6,6 +6,9 @@
 
 body {
   align-items: center;
+  background-image: url("images/mountains01.jpg");
+  background-position: center center;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   font-family: "Roboto", sans-serif;
@@ -13,4 +16,5 @@ body {
   justify-content: center;
   margin: 0;
   overflow: hidden;
+  transition: 0.4s;
 }
